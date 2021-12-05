@@ -1,0 +1,7 @@
+/*removing browser dafaults styling*/
+/* the * acts as a select all*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
