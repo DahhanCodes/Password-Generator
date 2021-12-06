@@ -3,8 +3,6 @@ let upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 let lowerCase= ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 let nums=["0","1","2","3","4","5","6","7","8","9"];
 let special= [".",":",";","@","!","*","#","&","-","_","+","%"];
-
-
 var button = document.getElementById("button");
 button.addEventListener('click', activated);
 
@@ -53,4 +51,7 @@ for (let i = 0; i <= numCharacters-1; i ++){
     console.log(password)
   }
   console.log(password)
+  var outPut= password.join("");
+  console.log(outPut)
+  document.getElementById("password").innerHTML = outPut;
 }
